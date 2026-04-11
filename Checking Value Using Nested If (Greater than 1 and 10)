@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    int x;
+    scanf("%d", &x);
+    if (x > 1) {
+        if (x > 10) {
+            printf("Value is greater than 10\n");
+        } else {
+            printf("Value is greater than 1 but less than or equal to 10\n");
+        }
+    } else {
+        printf("Value is less than or equal to 1\n");
+    }
+    return 0;
+}
