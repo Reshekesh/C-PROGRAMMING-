@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int d, m, r;
+    scanf("%d", &d);
+    m = d / 30;
+    r = d % 30;
+    printf("Months = %d\n", m);
+    printf("Days = %d", r);
+    return 0;
+}
