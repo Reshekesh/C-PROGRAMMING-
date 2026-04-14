@@ -1,0 +1,14 @@
+#include <stdio.h>
+void main()
+{
+    int i = 0, n, sum = 0;
+    scanf("%d", &n);
+    while(i <= n)
+    {
+       if(i%2==0){
+           sum+=i;
+       }
+        i++;
+    }
+    printf("Sum of even series = %d\n", sum);
+}
